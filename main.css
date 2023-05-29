@@ -15,8 +15,18 @@ h3 {
     font-size: 1.2em;
 }
 
+h3 a:link, a:active, a:visited{
+    color:black;
+}
+
 h4 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    padding: .5rem;
 }
 
 .flex-container{
@@ -33,12 +43,6 @@ h4 {
     justify-content: space-between;
     margin: auto;
     padding: .8rem;
-}
-
-img{
-    height: auto;
-    max-width: 100%;
-    padding: .5rem;
 }
 
 .image {
@@ -84,10 +88,7 @@ div a {
 }
 
 p {
-    /* text-align: center;
-    font-size: large; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* padding-bottom: 2rem; */
 }
 
 p a {
