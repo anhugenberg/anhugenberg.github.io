@@ -9,6 +9,12 @@ h1 {
     margin: .4em;
 }
 
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.7em;
+}
+
 h3 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -80,6 +86,10 @@ img{
 .imagetitle {
     font-size: 1.2em;
 }
+.border{
+    border: 1em solid rgb(235, 232, 232);
+    margin: 0 .5em;
+}
 
 div a {
     text-decoration: none;
@@ -89,6 +99,8 @@ div a {
 
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 
 p a {
@@ -101,6 +113,14 @@ p a:link, a:active, a:visited{
 
 p a:hover{
     color: gray;
+}
+
+ol {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-position: inside;
+}
+ul {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a:link, a:active, a:visited{
