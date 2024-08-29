@@ -6,15 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Alexa's Portfolio</title>
 </head>
 
 <body>
     <div class="flex-container2">
-        <h3><a href="index.html" id="hometitle">Alexa's Portfolio</a></h3>
+        <a href="index.html">
+            <img src="img/PortfolioLogo.png" alt= "Personal Logo" width="75" height="75">
+        </a>
         <nav>
             <div class="flex-container">
-                <a href="index.html" id="navbar">Home</a>
+                <a href="index.html#scrolltowork" id="navbar">Work</a>
                 <a href="about.html" id="navbar">About</a>
                 <a href="contact.html" id="navbar">Contact</a>
             </div>
@@ -22,7 +27,18 @@
     </div>
 
     <!-- <p>Portfolio of featured works by a creative technologist and designer.</h4> -->
-    <div class="flex-container">
+    <section class="container">
+    <div id="col-1">
+        <h1>Hello, I'm Alexa!</h1>
+        <p id="homeinfo">A Designer who loves to translate complex problems and requirements into elegant, user-friendly designs that drive
+            engagement and enhance user experience.</p>
+    </div>
+    <div id="col-2" style="text-align: center;">
+        <img src="img/homecolor.png" alt="Home Five Circle Image" width="275" height="275">
+    </div>
+    </section>
+
+    <div class="flex-container" id="scrolltowork">
         <div class="image">
             <a href="creepyCreature.html">
                 <img class="outimage" src="img/creepyCreature.gif" alt="Creepy Creature Gif">
@@ -137,7 +153,7 @@
         </a>
     </div> -->
     <footer>
-        <p>© 2023 Alexa Hugenberg</p>
+        <p>© 2024 Alexa Hugenberg</p>
     </footer>
 </body>
 
